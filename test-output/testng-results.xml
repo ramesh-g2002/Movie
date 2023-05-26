@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[openBrowser]]>
+    </line>
+    <line>
+      <![CDATA[homePage]]>
+    </line>
+    <line>
+      <![CDATA[test()]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[closebrowser]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="113215" started-at="2023-05-26T22:33:30 IST" finished-at="2023-05-26T22:35:23 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="113215" started-at="2023-05-26T22:33:30 IST" finished-at="2023-05-26T22:35:23 IST">
+      <class name="com.movie.run.test1">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.movie.run.test1@2353b3e6]" name="openBrowser" is-config="true" duration-ms="16014" started-at="2023-05-26T22:33:30 IST" finished-at="2023-05-26T22:33:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[openBrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="homePage()[pri:0, instance:com.movie.run.test1@2353b3e6]" name="homePage" is-config="true" duration-ms="20953" started-at="2023-05-26T22:33:46 IST" finished-at="2023-05-26T22:34:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[homePage]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="Wikipedia()[pri:0, instance:com.movie.run.test1@2353b3e6]" name="Wikipedia" duration-ms="73472" started-at="2023-05-26T22:34:07 IST" finished-at="2023-05-26T22:35:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[test()]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Wikipedia -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.movie.run.test1@2353b3e6]" name="logout" is-config="true" duration-ms="333" started-at="2023-05-26T22:35:20 IST" finished-at="2023-05-26T22:35:21 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:com.movie.run.test1@2353b3e6]" name="closebrowser" is-config="true" duration-ms="2301" started-at="2023-05-26T22:35:21 IST" finished-at="2023-05-26T22:35:23 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[closebrowser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- com.movie.run.test1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
